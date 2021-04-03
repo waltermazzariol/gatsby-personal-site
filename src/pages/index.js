@@ -15,7 +15,7 @@ const light = {
   SecundaryColor: "#0286c2",
   TitleColor: "#141414",
   SubtitleColor: "#4a4a4a",
-  BgColor: "#f1f3f4",
+  BgColor: "#fdfdfd",
   BgCard: "#f1f3f4",
   IconColor: "#FFFFFF"
 };

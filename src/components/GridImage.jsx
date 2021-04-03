@@ -5,7 +5,7 @@ const ImageWrapper = styled.div`
     position: relative;
     display: block;
     overflow: hidden;
-    padding-bottom: 100%;
+    max-width: 100%;
     border-radius: 10px;
     margin-bottom: 1rem;
     box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12), 0 1px 3px 0 rgba(0,0,0,0.20);
@@ -29,13 +29,10 @@ const ImageOvarlay = styled.div`
     }
 `
 const Image = styled.img`
-    position: absolute;
-    top: 0px;
-    left: 0px;
+    
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center center;
+    
+    
 `
 
 function GridImage({ data }) {

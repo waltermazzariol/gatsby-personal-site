@@ -29,60 +29,60 @@
                 {
                     "fileImage": {
                         "imageID": 251,
-                        "imageURL": "/images/portfolio/9.jpg"
+                        "imageURL": "/images/portfolio/a1.jpeg"
                     },
-                    "name": "The One Life Coaching",
-                    "subtitle": "React - Frontend",
-                    "url": "https://theonelifecoaching.com/"
+                    "name": "Ebb and Flow Miami",
+                    "subtitle": "2021 • Wordpress",
+                    "url": "https://ebbandflow.miami"
                 },
                 {
                     "fileImage": {
                         "imageID": 252,
-                        "imageURL": "/images/portfolio/7.jpg"
-                    },
-                    "name": "Aquiles Báez",
-                    "subtitle": "React - Frontend",
-                    "url": "https://aquilesbaez.net/"
-                },
-                {
-                    "fileImage": {
-                        "imageID": 253,
-                        "imageURL": "/images/portfolio/d3.jpg"
+                        "imageURL": "/images/portfolio/a2.jpeg"
                     },
                     "name": "Burbowl",
-                    "subtitle": "Wordpress",
+                    "subtitle": "2017 • Wordpress",
                     "url": "https://bur-bowl.com/"
                 },
                 {
                     "fileImage": {
                         "imageID": 253,
-                        "imageURL": "/images/portfolio/10.jpg"
+                        "imageURL": "/images/portfolio/a3.webp"
                     },
-                    "name": "Ebb and Flow",
-                    "subtitle": "Wordpress",
+                    "name": "Piel de Oro",
+                    "subtitle": "2020 • React + Gatsby",
                     "url": "https://ebbandflow.miami/"
                 },
                 {
                     "fileImage": {
                         "imageID": 253,
-                        "imageURL": "/images/portfolio/5.jpg"
+                        "imageURL": "/images/portfolio/a4.webp"
                     },
-                    "name": "Picarpolos",
-                    "subtitle": "Wordpress",
-                    "url": "https://picarpolos.com/"
+                    "name": "Cultura Nanos",
+                    "subtitle": "2020 • React + Gatsby",
+                    "url": "http://culturananos.com/"
                 },
                 {
                     "fileImage": {
                         "imageID": 253,
-                        "imageURL": "/images/portfolio/d4.jpg"
+                        "imageURL": "/images/portfolio/a5.webp"
                     },
-                    "name": "Cultura Nanos",
-                    "subtitle": "React",
-                    "url": "http://culturananos.com/"
+                    "name": "Orlando Molina",
+                    "subtitle": "2021 • Wordpress",
+                    "url": "http://orlandomolina.com/"
+                },
+                {
+                    "fileImage": {
+                        "imageID": 253,
+                        "imageURL": "/images/portfolio/a6.jpeg"
+                    },
+                    "name": "Norma Pasteles",
+                    "subtitle": "2020 • React + Gatsby",
+                    "url": "http://normapasteles.com/"
                 }
             ],
             "component_type": "GridColumn",
-            "title": "Portafolio",
+            "title": "Proyectos",
             "id":"2"
         },
         {
@@ -160,7 +160,7 @@
                         "imageID": 263,
                         "imageURL": "/images/testimonials/4.jpg"
                     },
-                    "name": "Guataca • Marketing Stractegic",
+                    "name": "Guataca • Marketing Strategic",
                     "subtitle": "2013 - 2017 • Planificación y desarrollo de estrategía digital"
                 }
             ],
