@@ -15,13 +15,13 @@ function SEO({ data, metas, url }) {
     ReactGA.initialize(data.ua);
     ReactGA.pageview(window.location.pathname + window.location.search);
   }
-
+  
   const metaDescription = data.description_seo
   const metaTags = data.tags_seo
   const lang = data.lang
-  const imageURL = `${url}/${data.image_seo}`
-  const imageURLHeight = "1200"
-  const imageURLWidth = "800"
+  const imageURL = `${url}${data.image_seo}`
+  const imageURLHeight = "715"
+  const imageURLWidth = "715"
   const title=data.title_seo
 
   return (

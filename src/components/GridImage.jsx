@@ -7,6 +7,7 @@ const ImageWrapper = styled.div`
     overflow: hidden;
     padding-bottom: 100%;
     border-radius: 10px;
+    margin-bottom: 1rem;
     box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12), 0 1px 3px 0 rgba(0,0,0,0.20);
 `
 const ImageOvarlay = styled.div`
@@ -41,7 +42,7 @@ function GridImage({ data }) {
 
     return (
         <ImageWrapper >
-            {data ? <Image src={data} alt="grid" />: <div className="bg-secundary"></div>}
+            {data ? <Image src={data} alt="grid"/>: <div className="bg-secundary"></div>}
             <ImageOvarlay />
         </ImageWrapper>
     )

@@ -61,7 +61,6 @@ export default class createGallery extends React.Component {
           <Modal
             show={this.state.modalShow}
             onHide={() => this.setModal(false, 0)}
-            size="lg"
             aria-labelledby="contained-modal-title-vcenter"
             centered>
             <Modal.Header closeButton>

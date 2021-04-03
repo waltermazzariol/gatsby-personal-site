@@ -10,32 +10,23 @@ function GridColumn({ data }) {
     return (
         <Container className="py-5">
             <Row>
-                {data.title ? <Title data={data.title} /> : ""}
+                <Title data={data.title} />
                 {data.list ? data.list.map((key, index) =>
-                    <Col xs={12} md={6} lg={4} className="gridcolumn mb-5" key={index}>
-                        <Row>
-                            {key.fileImage ?
-                                <Col className="mb-3" xs={12}>
-                                    <a href={key.url} target="_blank" rel="noopener noreferrer">
-                                        <GridImage data={key.fileImage.imageURL} />
-                                    </a>
-                                </Col>
-                                : ""}
-                            <Col xs={12}>
-                                <GridTitle>
-                                    <a href={key.url} target="_blank" rel="noopener noreferrer">
-                                        {key.name}
-                                    </a>
-                                </GridTitle>
-                            </Col>
-                            <Col xs={12}>
-                                <GridSubtitle>
-                                    <a href={key.url} target="_blank" rel="noopener noreferrer">
-                                        {key.subtitle}
-                                    </a>
-                                </GridSubtitle>
-                            </Col>
-                        </Row>
+                    <Col xs={12} md={6} lg={4} className="mb-5" key={index}>
+                        {key.fileImage ?
+                            <a href={key.url} target="_blank" rel="noopener noreferrer">
+                                <GridImage data={key.fileImage.imageURL} />
+                            </a> : ""}
+                        {key.name ? <GridTitle>
+                            <a className="mb-3" href={key.url} target="_blank" rel="noopener noreferrer">
+                                {key.name}
+                            </a>
+                        </GridTitle> : ""}
+                        {key.subtitle ? <GridSubtitle>
+                            <a href={key.url} target="_blank" rel="noopener noreferrer">
+                                {key.subtitle}
+                            </a>
+                        </GridSubtitle> : ""}
                     </Col>
                 ) : ""}
             </Row>

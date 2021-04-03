@@ -11,11 +11,11 @@ function GridRow({data}) {
     return (
         <Container id="gridrow" className="pb-5">
             <Row>
-                {data.title ? <Title data={data.title} />:""}
+                <Title data={data.title} />
                 {data.list !== undefined ? data.list.map((key, index) =>
                     <Col key={index} xs={12} md={6} className="mb-3">
                             <Row className="align-items-center">
-                            {key.fileImage !== undefined ?
+                            {key.fileImage ?
                                 <Col xs={12} md={4} className="mb-3">
                                     <GridImage data={key.fileImage.imageURL}/>
                                 </Col>:""}
