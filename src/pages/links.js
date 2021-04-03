@@ -26,7 +26,7 @@ function IndexPage() {
   const browser = typeof window !== "undefined" && window;
 
   return (<>
-        {browser && (<>
+      
     <Seo data={data.seo_info} url={data.site_url} />
     <Normalize />
     <ThemeProvider theme={light}>
@@ -34,7 +34,7 @@ function IndexPage() {
         {data.components.map(block => Components(block))}
         <Brand />
       </ThemeProvider>
-    </>)}</>);
+   </>);
 }
 
 export default IndexPage
