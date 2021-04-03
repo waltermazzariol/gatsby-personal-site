@@ -48,7 +48,7 @@ export default class createGallery extends React.Component {
 
   render() {
     return (
-      <Container className="pb-5 px-0">
+      <Container fluid className="pb-5 px-0">
         <Row noGutters>
           {this.props.data.title ? <Title data={this.props.data.title} /> : ""}
           {this.props.data.list !== undefined ? <>

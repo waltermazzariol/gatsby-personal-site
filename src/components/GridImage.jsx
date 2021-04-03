@@ -28,7 +28,6 @@ const ImageOvarlay = styled.div`
     }
 `
 const Image = styled.img`
-    content-visibility: auto;
     position: absolute;
     top: 0px;
     left: 0px;

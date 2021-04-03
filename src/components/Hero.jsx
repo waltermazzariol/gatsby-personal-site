@@ -8,13 +8,14 @@ const HeroContainer = styled.div`
     background-color: #141414;
 `
 const HeroWrapper = styled.div`
-    min-height: 60vh;
+    min-height: 600px;
 `
 const HeroTitle = styled.div`
     color: #ffffff;
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 0.1rem;
+    text-align: center;
     @media (min-width: 768px){
       font-size: 3.5rem;
     }
@@ -40,7 +41,7 @@ const HeroButton = styled.a`
     min-width: 140px;
     font-size: 0.775rem;
     border-radius: 4px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1.75;
     text-transform: uppercase;
     &:hover {

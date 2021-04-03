@@ -16,10 +16,10 @@ function GridRow({data}) {
                     <Col key={index} xs={12} md={6} className="mb-3">
                             <Row className="align-items-center">
                             {key.fileImage !== undefined ?
-                                <Col xs={12} md={4} className="mb-1">
+                                <Col xs={12} md={4} className="mb-3">
                                     <GridImage data={key.fileImage.imageURL}/>
                                 </Col>:""}
-                                <Col xs={12} md={8} className="mb-1">
+                                <Col xs={12} md={8} className="mb-4">
                                     <GridTitle>{key.name}</GridTitle>
                                     <GridSubtitle>{key.subtitle}</GridSubtitle>
                                 </Col>

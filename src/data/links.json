@@ -1,0 +1,77 @@
+{
+    "temaplate": 2,
+    "site_url": "https://waltermazzariol.com/links",
+    "seo_info": {
+        "title_seo": "Walter Mazzariol",
+        "description_seo": "Product owner y desarrollador Web con más 5 años",
+        "tags_seo": "Product Owner, Product Manager, Edreams, Guataca, Guarapo Media, Web developer",
+        "image_seo":"images/bio.jpg",
+        "ua": "UA-76858028-1",
+        "lang": "es"
+    },
+    "components": [{
+        "section_preview": "",
+        "social_icons": [{
+            "icon": "far fa-envelope",
+            "link": "mailto:mazzariolwalter@gmail.com"
+        }, {
+            "icon": "fab fa-instagram",
+            "link": "https://instagram.com/waltermazzariol"
+        },  {
+            "icon": "fab fa-linkedin",
+            "link": "https://www.linkedin.com/in/waltermazzariol/"
+        },{
+            "icon": "fab fa-github",
+            "link": "https://www.githhub.com/waltermazzariol/"
+        }],
+        "fileImage": {
+            "imageID": 476,
+            "imageURL": "/images/bio.jpg",
+            "large": "",
+            "medium": "/images/bio.jpg",
+            "thumbnail": "/images/bio.jpg",
+            "srcSet": "/images/bio.jpg"
+        },
+        "component_type": "Profile",
+        "id": "1",
+        "title": "@WalterMazzariol",
+        "link": "https://waltermazzariol.com",
+        "description": "Product Owner & Web Developer"
+    }, {
+        "section_preview": "",
+        "component_type": "SimpleButton",
+        "id": "jybzft05u",
+        "title": "Waltermazzariol.com",
+        "description": "",
+        "link": "https://waltermazzariol.com",
+        "icon": "fas fa-star"
+    }, {
+        "section_preview": "",
+        "component_type": "SimpleButton",
+        "id": "jybzft05u",
+        "title": "Medium blog",
+        "description": "",
+        "link": "https://www.medium.com/@waltermazzariol/",
+        "icon": "fab fa-medium"
+    },  {
+        "section_preview": "",
+        "fileImage": {
+            "imageID": 477,
+            "imageURL": "/images/guarapo.jpg"
+        },
+        "component_type": "CardButton",
+        "id": "rijxv6aya",
+        "title": "",
+        "link": "https://guarapomedia.com"
+    }, {
+        "section_preview": "",
+        "fileImage": {
+            "imageID": 478,
+            "imageURL": "/images/wansite.jpg"
+        },
+        "component_type": "CardButton",
+        "id": "4",
+        "title": "",
+        "link": "https://wansite.co"
+    }]
+}

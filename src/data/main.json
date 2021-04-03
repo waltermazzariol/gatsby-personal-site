@@ -1,0 +1,205 @@
+{
+    "temaplate": 1,
+    "site_url": "https://waltermazzariol.com",
+    "seo_info": {
+        "title_seo": "Walter Mazzariol",
+        "description_seo": "Product owner y desarrollador Web con más 5 años",
+        "tags_seo": "Product Owner, Product Manager, Edreams, Guataca, Guarapo Media, Web developer",
+        "image_seo":"images/bio.jpg",
+        "ua": "UA-76858028-1",
+        "lang": "es"
+    },
+    "components": [
+        {
+            "section_preview": "/templates/template_1/assets/hero.jpg",
+            "fileImage": {
+                "imageID": 250,
+                "imageURL": "/images/hero.jpg"
+            },
+            "component_type": "Hero",
+            "title": "¡Hola!, soy Walter Mazzariol",
+            "description": "Product Owner & Web Developer - Barcelona, España",
+            "button_title": "contáctame",
+            "button_url": "https://wa.me/34622531989",
+            "id":"1"
+        },
+        {
+            "section_preview": "/templates/template_1/assets/portfolio.jpg",
+            "list": [
+                {
+                    "fileImage": {
+                        "imageID": 251,
+                        "imageURL": "/images/portfolio/9.jpg"
+                    },
+                    "name": "The One Life Coaching",
+                    "subtitle": "React - Frontend",
+                    "url": "https://theonelifecoaching.com/"
+                },
+                {
+                    "fileImage": {
+                        "imageID": 252,
+                        "imageURL": "/images/portfolio/7.jpg"
+                    },
+                    "name": "Aquiles Báez",
+                    "subtitle": "React - Frontend",
+                    "url": "https://aquilesbaez.net/"
+                },
+                {
+                    "fileImage": {
+                        "imageID": 253,
+                        "imageURL": "/images/portfolio/2.jpg"
+                    },
+                    "name": "Burbowl",
+                    "subtitle": "Wordpress",
+                    "url": "https://bur-bowl.com/"
+                },
+                {
+                    "fileImage": {
+                        "imageID": 253,
+                        "imageURL": "/images/portfolio/10.jpg"
+                    },
+                    "name": "Ebb and Flow",
+                    "subtitle": "Wordpress",
+                    "url": "https://ebbandflow.miami/"
+                },
+                {
+                    "fileImage": {
+                        "imageID": 253,
+                        "imageURL": "/images/portfolio/5.jpg"
+                    },
+                    "name": "Picarpolos",
+                    "subtitle": "Wordpress",
+                    "url": "https://picarpolos.com/"
+                },
+                {
+                    "fileImage": {
+                        "imageID": 253,
+                        "imageURL": "/images/portfolio/d4.jpg"
+                    },
+                    "name": "Cultura Nanos",
+                    "subtitle": "React",
+                    "url": "http://culturananos.com/"
+                }
+            ],
+            "component_type": "GridColumn",
+            "title": "Portafolio",
+            "id":"2"
+        },
+        {
+            "section_preview": "/templates/template_1/assets/gallery.jpg",
+            "list": [
+                {
+                    "fileImage": {
+                        "imageID": 255,
+                        "imageURL": "/images/gallery/1.jpeg"
+                    }
+                },
+                {
+                    "fileImage": {
+                        "imageID": 256,
+                        "imageURL": "/images/gallery/2.jpeg"
+                    }
+                },
+                {
+                    "fileImage": {
+                        "imageID": 257,
+                        "imageURL": "/images/gallery/3.jpeg"
+                    }
+                },
+                {
+                    "fileImage": {
+                        "imageID": 266,
+                        "imageURL": "/images/gallery/4.jpeg"
+                    }
+                }
+            ],
+            "component_type": "Gallery",
+            "title": "Barcelona",
+            "id":"3"
+        },
+        {
+            "section_preview": "/templates/template_1/assets/biography.jpg",
+            "fileImage": {
+                "imageID": 282,
+                "imageURL": "/images/bio.jpg"
+            },
+            "component_type": "GridTwo",
+            "title": "Biografía",
+            "description": "Tengo 5 años de experiencia trabajando en el sector Web y producto, asumiendo retos que me han motivado a desarrollar nuevas aptitudes y conocimientos. He tenido la oportunidad de formar parte de empresas como eDreams ODIGEO y WANUP con un capital humano increíble que me han hecho crecer de forma personal y profesional. Soy fiel creyente de las metodologías ágiles y como éstas permiten minimizar el impacto en el desarrollo y reducir el \"time to market\". \nEstoy constantemente conectado con los cambios ocurren en el sector tecnológico. Sin embargo, siempre puedo poner mi móvil a un lado y disfrutar de un buen concierto con mis amigos.",
+            "id":"4"
+        },
+        {
+            "section_preview": "/templates/template_1/assets/review.jpg",
+            "list": [
+                {
+                    "fileImage": {
+                        "imageID": 262,
+                        "imageURL": "/images/testimonials/1.jpg"
+                    },
+                    "name": "Edreams • Product Owner",
+                    "subtitle": "2019 - presente • API Connectivity"
+                },
+                {
+                    "fileImage": {
+                        "imageID": 263,
+                        "imageURL": "/images/testimonials/2.jpg"
+                    },
+                    "name": "Guarapo Media • Product Manager",
+                    "subtitle": "2013 - presente • Web development"
+                },
+                {
+                    "fileImage": {
+                        "imageID": 263,
+                        "imageURL": "/images/testimonials/3.jpg"
+                    },
+                    "name": "Wanup • Technical support",
+                    "subtitle": "2017 - 2018 • Widgets y microsites para hoteleros"
+                },
+                {
+                    "fileImage": {
+                        "imageID": 263,
+                        "imageURL": "/images/testimonials/4.jpg"
+                    },
+                    "name": "Guataca • Marketing Stractegic",
+                    "subtitle": "2013 - 2017 • Planificación y desarrollo de estrategía digital"
+                }
+            ],
+            "component_type": "GridRow",
+            "title": "Experiencia",
+            "id":"5"
+        },
+        {
+            "section_preview": "/templates/template_1/assets/footer.jpg",
+            "social_icons": [
+                {
+                    "name": "fab fa-instagram",
+                    "link": "https://instagram.com/waltermazzariol"
+                },
+                {
+                    "name": "fab fa-twitter",
+                    "link": "https://twitter.com/waltermazzariol"
+                },
+                {
+                    "name": "fab fa-linkedin",
+                    "link": "https://linkedin.com/waltermazzariol"
+                },
+                {
+                    "name": "fab fa-dribbble",
+                    "link": "https://dribbble.com/GuarapoMedia"
+                },
+                {
+                    "name": "fab fa-github",
+                    "link": "https://github.com/waltermazzariol"
+                }
+            ],
+            "fileImage": {
+                "imageID": 265,
+                "imageURL": "/images/bg-footer.jpg"
+            },
+            "component_type": "Footer",
+            "title": "+34622531989",
+            "description": "Barcelona, Spain",
+            "id":"6"
+        }
+    ]
+}

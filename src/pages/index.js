@@ -8,7 +8,7 @@ import GlobalStyle from "../assets/styles/GlobalStyles"
 import { Normalize } from 'styled-normalize'
 import { ThemeProvider } from 'styled-components'
 
-import data from "../data/es.json"
+import data from "../data/main.json"
 
 const light = {
   PrimaryColor: "#03a9f4",
@@ -25,7 +25,7 @@ function IndexPage() {
 
   return (<>
         {browser && (<>
-    <Seo title={data.seo_info.title_seo} description={data.seo_info.descripton_seo} />
+    <Seo data={data.seo_info} url={data.site_url}/>
     <Normalize />
     <ThemeProvider theme={light}>
       <GlobalStyle />

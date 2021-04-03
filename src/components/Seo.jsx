@@ -6,23 +6,23 @@
  */
 
 import React from "react"
-import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import ReactGA from 'react-ga'
 
-import logo from "../assets/images/seo_preview.jpg"
-
-function SEO({ description, lang, title, metas }) {
+function SEO({ data, metas, url }) {
 
   if (typeof window !== `undefined`) {
-    ReactGA.initialize("UA-189914825-1");
+    ReactGA.initialize(data.ua);
     ReactGA.pageview(window.location.pathname + window.location.search);
   }
 
-  const metaDescription = description
-  const imageURL = "https://wansite.co"+logo
+  const metaDescription = data.description_seo
+  const metaTags = data.tags_seo
+  const lang = data.lang
+  const imageURL = `${url}/${data.image_seo}`
   const imageURLHeight = "1200"
-  const imageURLWidth = "628"
+  const imageURLWidth = "800"
+  const title=data.title_seo
 
   return (
     <Helmet
@@ -33,12 +33,12 @@ function SEO({ description, lang, title, metas }) {
       titleTemplate={title}
       meta={[
         {
-          name: `google-site-verification`,
-          content: "jNN2Xr05ADL2kCSLDXLxpMCwsI_LWtpY_tSynUGrCew",
-        },
-        {
           name: `description`,
           content: metaDescription,
+        },
+        {
+          name: `keywords`,
+          content: metaTags,
         },
         {
           property: `og:title`,
@@ -66,7 +66,7 @@ function SEO({ description, lang, title, metas }) {
         },
         {
           property: `og:url`,
-          content: metas.siteurl,
+          content: url,
         },
         {
           name: `twitter:card`,
@@ -95,17 +95,7 @@ function SEO({ description, lang, title, metas }) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
-  metas: [],
-  description: ``,
-  title: ``,
-}
-
-SEO.propTypes = {
-  description: PropTypes.string,
-  lang: PropTypes.string,
-  meta: PropTypes.arrayOf(PropTypes.object),
-  title: PropTypes.string.isRequired,
+  metas: []
 }
 
 export default SEO

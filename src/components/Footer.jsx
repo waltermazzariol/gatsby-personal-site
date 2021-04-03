@@ -6,8 +6,12 @@ import logo from "../assets/images/logo-wansite-light.svg"
 const FooterContainer = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    background-color: #141414;
+    background-position: center bottom;
+    background-color: #16171B;
+`
+const BrandLogo = styled.div`
+    background-color: #16171B;
+    padding: 10px 0;
 `
 
 const FooterWrapper = styled.div`
@@ -59,9 +63,9 @@ function Footer({ data }) {
             {data.description ? <FooterText><i className="fas fa-location-arrow mt-3 mr-1"></i> {data.description} </FooterText> : ""}
             {data.title ? <FooterText><i className="fas fa-phone fa-flip-horizontal mt-3 mr-1"></i> <a href={data.title}> {data.title}</a></FooterText> : ""}
           </FooterWrapper>
-        <div className="bg-dark text-light text-center">
+        <BrandLogo className="text-center">
           <a href="https://wansite.co" target="_blank" rel="noreferrer"><Logo src={logo} alt="wansite logo" /></a>
-        </div>
+        </BrandLogo>
     </FooterContainer>
   )
 }

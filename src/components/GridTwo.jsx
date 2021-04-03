@@ -7,7 +7,7 @@ import Image from "./Image"
 
 function SplitString(props) {
     let text = props.data.toString();
-    let newText = text.split('\\n').map((nstr, key) => <p className="mb-4" key={key}>{nstr}</p>);
+    let newText = text.split('\n').map((nstr, key) => <p className="mb-4" key={key}>{nstr}</p>);
     return newText;
 }
 

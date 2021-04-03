@@ -8,6 +8,9 @@ import GridTwo from "./GridTwo"
 import GridRow from "./GridRow"
 import Footer from "./Footer"
 import Media from "./Media"
+import Profile from "./Profile"
+import SimpleButton from "./SimpleButton"
+import CardButton from "./CardButton"
 
 const Components = {
   Hero: Hero,
@@ -16,7 +19,10 @@ const Components = {
   GridTwo: GridTwo,
   GridRow: GridRow,
   Footer: Footer,
-  Media: Media
+  Media: Media,
+  Profile: Profile,
+  SimpleButton: SimpleButton,
+  CardButton: CardButton
   };
 
 

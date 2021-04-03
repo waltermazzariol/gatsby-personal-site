@@ -15,7 +15,7 @@ function GridColumn({ data }) {
                     <Col xs={12} md={6} lg={4} className="gridcolumn mb-5" key={index}>
                         <Row>
                             {key.fileImage ?
-                                <Col xs={12}>
+                                <Col className="mb-3" xs={12}>
                                     <a href={key.url} target="_blank" rel="noopener noreferrer">
                                         <GridImage data={key.fileImage.imageURL} />
                                     </a>
