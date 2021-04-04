@@ -95,7 +95,8 @@ function SEO({ data, metas, url }) {
 }
 
 SEO.defaultProps = {
-  metas: []
+  metas: [],
+  imageURL: ""
 }
 
 export default SEO
