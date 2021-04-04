@@ -40,7 +40,7 @@
                         "imageID": 252,
                         "imageURL": "/images/portfolio/a2.jpeg"
                     },
-                    "name": "Burbowl",
+                    "name": "Restaurante Burbowl Miami",
                     "subtitle": "2017 • Wordpress",
                     "url": "https://bur-bowl.com/"
                 },
@@ -58,7 +58,7 @@
                         "imageID": 253,
                         "imageURL": "/images/portfolio/a4.webp"
                     },
-                    "name": "Cultura Nanos",
+                    "name": "Escuela infantil Cultura Nanos",
                     "subtitle": "2020 • React + Gatsby",
                     "url": "http://culturananos.com/"
                 },
@@ -82,7 +82,7 @@
                 }
             ],
             "component_type": "GridColumn",
-            "title": "Proyectos",
+            "title": "Proyectos Web",
             "id":"2"
         },
         {
@@ -125,7 +125,7 @@
             },
             "component_type": "GridTwo",
             "title": "Biografía",
-            "description": "Tengo 5 años de experiencia trabajando en el sector Web y producto, asumiendo retos que me han motivado a desarrollar nuevas aptitudes y conocimientos. He tenido la oportunidad de formar parte de empresas como eDreams ODIGEO y WANUP con un capital humano increíble que me han hecho crecer de forma personal y profesional. Soy fiel creyente de las metodologías ágiles y como éstas permiten minimizar el impacto en el desarrollo y reducir el \"time to market\". \nEstoy constantemente conectado con los cambios ocurren en el sector tecnológico. Sin embargo, siempre puedo poner mi móvil a un lado y disfrutar de un buen concierto con mis amigos.",
+            "description": "Tengo 5 años de experiencia trabajando en el sector Web y creación de productos digitales, asumiendo retos que me han motivado a desarrollar nuevas aptitudes y conocimientos. He tenido la oportunidad de formar parte de empresas como eDreams ODIGEO, WANUP, Yamaha Musical entre otros, con un capital humano increíble que me han hecho crecer de forma personal y profesional. \nSoy fiel creyente de las metodologías ágiles y como éstas permiten minimizar el impacto en el desarrollo y reducir el \"time to market\". \nEstoy constantemente conectado con los cambios que ocurren en el sector tecnológico. Sin embargo, siempre puedo poner mi móvil a un lado y disfrutar de un buen concierto con mis amigos.",
             "id":"4"
         },
         {
@@ -136,8 +136,8 @@
                         "imageID": 262,
                         "imageURL": "/images/testimonials/1.jpg"
                     },
-                    "name": "Edreams • Product Owner",
-                    "subtitle": "2019 - presente • API Connectivity"
+                    "name": "Edreams Odigeo • Product Owner",
+                    "subtitle": "2019 - Presente • API Connectivity"
                 },
                 {
                     "fileImage": {
@@ -145,7 +145,7 @@
                         "imageURL": "/images/testimonials/2.jpg"
                     },
                     "name": "Guarapo Media • Product Manager",
-                    "subtitle": "2013 - presente • Web development"
+                    "subtitle": "2013 - Presente • Web development"
                 },
                 {
                     "fileImage": {
@@ -185,7 +185,7 @@
                 },
                 {
                     "name": "fab fa-medium",
-                    "link": "https://meidum.com/@waltermazzariol"
+                    "link": "https://medium.com/@waltermazzariol"
                 },
                 {
                     "name": "fab fa-github",

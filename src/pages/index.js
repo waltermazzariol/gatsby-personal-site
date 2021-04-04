@@ -21,16 +21,18 @@ const light = {
 };
 
 function IndexPage() {
+  const browser = typeof window !== "undefined" && window;
 
   return (<>
         
     <Seo data={data.seo_info} url={data.site_url}/>
+    {browser && (<>
     <Normalize />
     <ThemeProvider theme={light}>
       <GlobalStyle />
         {data.components.map(block => Components(block))}
       </ThemeProvider>
-   </>);
+      </>)}</>);
 }
 
 export default IndexPage

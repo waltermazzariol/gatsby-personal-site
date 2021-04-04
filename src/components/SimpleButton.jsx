@@ -6,6 +6,12 @@ import Row from 'react-bootstrap/Row'
 
 import styled from 'styled-components'
 
+const Link = styled.a`
+  &:hover{
+      text-decoration: none;
+    }
+`
+
 const Card = styled.div`
     background: ${props => props.theme.BgCard};
     padding: 0.5rem 1rem;
@@ -17,6 +23,9 @@ const Card = styled.div`
     justify-content: space-between;
     align-items: center;
     min-height: 55px;
+    &:hover{
+      filter: brightness(120%)
+    }
 `
 const Title = styled.div`
     font-weight: 500;
@@ -38,16 +47,16 @@ function CardButton({ data }) {
     <Container fluid>
       <Row className="justify-content-center" noGutters>
         <Col md="7" lg="5" className="text-center ">
-        <a href={data.link} target="_blank" rel="noreferrer">
-          <Card>
+          <Link href={data.link} target="_blank" rel="noreferrer">
+            <Card>
           <Icon className={data.icon}></Icon>
           <span>
             <Title>{data.title}</Title>
             <Description>{data.description}</Description>
             </span>
-            <Icon className="fas fa-chevron-right"></Icon>
-          </Card>
-          </a>
+              <Icon className="material-icons">arrow_forward_ios</Icon>
+            </Card>
+          </Link>
         </Col>
       </Row>
     </Container>
@@ -61,4 +70,4 @@ CardButton.defaultProps = {
   }
 }
 
-export default CardButton 
+export default CardButton

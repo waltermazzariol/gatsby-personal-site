@@ -5,7 +5,7 @@
         "title_seo": "Walter Mazzariol • Product Owner",
         "description_seo": "Product Owner & Web Developer - Barcelona, España",
         "tags_seo": "Product Owner, Product Manager, Edreams, Guataca, Guarapo Media, Web developer",
-        "image_seo":"images/bio.jpg",
+        "image_seo":"/images/bio.jpg",
         "ua": "UA-76858028-1",
         "lang": "es"
     },
@@ -36,11 +36,11 @@
         "id": "1",
         "title": "@WalterMazzariol",
         "link": "https://waltermazzariol.com",
-        "description": "Product Owner & Web Developer"
+        "description": "Product Owner & Web Developer - Barcelona, España"
     }, {
         "section_preview": "",
         "component_type": "SimpleButton",
-        "id": "jybzft05u",
+        "id": "jybzft07u",
         "title": "Waltermazzariol.com",
         "description": "",
         "link": "https://waltermazzariol.com",
@@ -50,28 +50,34 @@
         "component_type": "SimpleButton",
         "id": "jybzft05u",
         "title": "Medium blog",
-        "description": "",
+        "description": "Proyectos",
         "link": "https://www.medium.com/@waltermazzariol/",
         "icon": "fab fa-medium"
+    }, {
+        "section_preview": "",
+        "component_type": "SimpleButton",
+        "id": "jybzft05i",
+        "title": "Guarapo Media Angency",
+        "description": "Digital marketing & Web development",
+        "link": "https://www.medium.com/@waltermazzariol/",
+        "icon": "fas fa-globe-americas"
+    }, {
+        "section_preview": "",
+        "component_type": "SimpleButton",
+        "id": "jybzft05t",
+        "title": "Wansite",
+        "description": "Build your own site",
+        "link": "https://www.medium.com/@waltermazzariol/",
+        "icon": "fas fa-code-branch"
     },  {
         "section_preview": "",
         "fileImage": {
             "imageID": 477,
-            "imageURL": "/images/guarapo.jpg"
+            "imageURL": "/images/portfolio/a1.jpeg"
         },
         "component_type": "CardButton",
         "id": "rijxv6aya",
-        "title": "",
-        "link": "https://guarapomedia.com"
-    }, {
-        "section_preview": "",
-        "fileImage": {
-            "imageID": 478,
-            "imageURL": "/images/wansite.jpg"
-        },
-        "component_type": "CardButton",
-        "id": "4",
-        "title": "",
-        "link": "https://wansite.co"
+        "title": "Proyecto más reciente",
+        "link": "https://dribbble.com/shots/15414608-Ebb-and-Flow-Miami"
     }]
 }
