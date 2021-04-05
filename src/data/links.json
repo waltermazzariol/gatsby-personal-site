@@ -51,7 +51,7 @@
         "id": "jybzft05u",
         "title": "Medium blog",
         "description": "Proyectos",
-        "link": "https://www.medium.com/@waltermazzariol/",
+        "link": "https://www.medium.com/@waltermazzariol",
         "icon": "fab fa-medium"
     }, {
         "section_preview": "",
@@ -59,7 +59,7 @@
         "id": "jybzft05i",
         "title": "Guarapo Media Angency",
         "description": "Digital marketing & Web development",
-        "link": "https://www.medium.com/@waltermazzariol/",
+        "link": "https://www.guarapomedia.com",
         "icon": "fas fa-globe-americas"
     }, {
         "section_preview": "",
@@ -67,7 +67,7 @@
         "id": "jybzft05t",
         "title": "Wansite",
         "description": "Build your own site",
-        "link": "https://www.medium.com/@waltermazzariol/",
+        "link": "https://www.wansite.co",
         "icon": "fas fa-code-branch"
     },  {
         "section_preview": "",
