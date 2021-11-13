@@ -6,7 +6,7 @@ Gatsby implementation for personal site [waltermazzariol.com](https://waltermazz
 
 ## 🔥 Features
 
-- [React Bootstrap](https://react-bootstrap.github.io)
+- [React Bootstrap v2](https://react-bootstrap.github.io)
 - [GitHub Actions](https://github.com/features/actions)
 - [react-reveal | Animation effects](https://www.react-reveal.com/)
 - [React ga | Google Analytics](https://github.com/react-ga/react-ga)
