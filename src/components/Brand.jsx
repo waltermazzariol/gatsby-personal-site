@@ -16,7 +16,7 @@ const Logo = styled.img`
 
 function Brand() {
     return <Container fluid>
-            <Row noGutters>
+            <Row  >
                 <Col xs={12} className="text-center">
                     <a href="https://wansite.co" target="_blank" rel="noreferrer">
                         <Logo src={logo} alt="wansite logo" />

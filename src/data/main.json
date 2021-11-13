@@ -18,7 +18,7 @@
             },
             "component_type": "Hero",
             "title": "¡Hola!, soy Walter Mazzariol",
-            "description": "Product Owner & Web Developer - Barcelona, España",
+            "description": "Product Manager & Web Developer - Barcelona, España",
             "button_title": "contáctame",
             "button_url": "https://wa.me/34622531989",
             "id":"1"
@@ -91,25 +91,25 @@
                 {
                     "fileImage": {
                         "imageID": 255,
-                        "imageURL": "/images/gallery/1.jpeg"
+                        "imageURL": "/images/gallery/1.JPG"
                     }
                 },
                 {
                     "fileImage": {
                         "imageID": 256,
-                        "imageURL": "/images/gallery/2.jpeg"
+                        "imageURL": "/images/gallery/2.JPG"
                     }
                 },
                 {
                     "fileImage": {
                         "imageID": 257,
-                        "imageURL": "/images/gallery/3.jpeg"
+                        "imageURL": "/images/gallery/3.JPG"
                     }
                 },
                 {
                     "fileImage": {
                         "imageID": 266,
-                        "imageURL": "/images/gallery/4.jpeg"
+                        "imageURL": "/images/gallery/4.JPG"
                     }
                 }
             ],
@@ -136,7 +136,7 @@
                         "imageID": 262,
                         "imageURL": "/images/testimonials/1.jpg"
                     },
-                    "name": "Edreams Odigeo • Product Owner",
+                    "name": "Edreams Odigeo • Product Manager",
                     "subtitle": "2019 - Presente • API Connectivity"
                 },
                 {

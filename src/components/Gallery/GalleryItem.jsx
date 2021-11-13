@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Row, Modal } from "react-bootstrap"
+import { Container, Row, Modal, CloseButton } from "react-bootstrap"
 import styled from 'styled-components'
 
 import GalleryCarousel from "./Carousel"
@@ -49,7 +49,7 @@ export default class createGallery extends React.Component {
   render() {
     return (
       <Container fluid className="pb-5 px-0">
-        <Row noGutters>
+        <Row  >
           {this.props.data.title ? <Title data={this.props.data.title} /> : ""}
           {this.props.data.list !== undefined ? <>
             {this.props.data.list.map((key, index) =>
@@ -63,7 +63,8 @@ export default class createGallery extends React.Component {
             onHide={() => this.setModal(false, 0)}
             aria-labelledby="contained-modal-title-vcenter"
             centered>
-            <Modal.Header closeButton>
+            <Modal.Header >
+              <CloseButton />
             </Modal.Header>
             <Modal.Body>
               <GalleryCarousel images={this.props.data.list} current={this.state.modalCurrent} />

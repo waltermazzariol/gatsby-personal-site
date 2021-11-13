@@ -30,6 +30,9 @@ p{
   margin-left: auto;
   margin-right: auto;
 }
+a{
+  text-decoration: none
+}
 `
 
 export default GlobalStyle;

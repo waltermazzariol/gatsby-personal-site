@@ -9,9 +9,11 @@ const Header = styled.h2`
   text-center: center;
 `
 const Divider = styled.hr`
-  border-color: ${props => props.theme.PrimaryColor};
+  background-color: ${props => props.theme.PrimaryColor};
+  height: 2px;
   max-width: 3.25rem;
-  border-width: 0.2rem;
+  opacity: 1;
+  margin: auto;
 `
 
 function Title({ data }) {

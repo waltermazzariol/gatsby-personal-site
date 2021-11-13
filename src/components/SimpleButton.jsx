@@ -45,7 +45,7 @@ const Icon = styled.i`
 function CardButton({ data }) {
   return (
     <Container fluid>
-      <Row className="justify-content-center" noGutters>
+      <Row className="justify-content-center"  >
         <Col md="7" lg="5" className="text-center ">
           <Link href={data.link} target="_blank" rel="noreferrer">
             <Card>

@@ -17,7 +17,7 @@ const PortfolioCarousel = ({ images, current }) => {
   );
 
   return (
-    <Carousel interval={null} indicators={false} defaultActiveIndex={current} slide={false}>
+    <Carousel interval={null} defaultActiveIndex={current} slide={false}>
       {carouselItems}
     </Carousel>
   );
