@@ -1,17 +1,15 @@
 #Gatsby Starter for portfolio showcase
 
-Gatsby implementation of [Wansite Starter](https://modest-villani-fa0160.netlify.app/) template.
+Gatsby implementation for personal site [waltermazzariol.com](https://waltermazzariol.com/) and Social media template [waltermazzariol.com/links](https://waltermazzariol.com/links).
 
-[**Demo Website**](https://modest-villani-fa0160.netlify.app/)
+[**Demo Website**](https://waltermazzariol.com/)
 
 ## 🔥 Features
 
 - [React Bootstrap](https://react-bootstrap.github.io)
 - [GitHub Actions](https://github.com/features/actions)
-- [React Scrollspy | scroll](https://github.com/makotot/react-scrollspy)
 - [react-reveal | Animation effects](https://www.react-reveal.com/)
 - [React ga | Google Analytics](https://github.com/react-ga/react-ga)
-- [Cookies consent](https://www.npmjs.com/package/react-cookie)
 
 ### Other Features
 
@@ -26,7 +24,7 @@ Gatsby implementation of [Wansite Starter](https://modest-villani-fa0160.netlify
     Use the Gatsby CLI to create a new site, specifying the starter project.
     
     ```sh
-    gatsby new project-name https://github.com/waltermazzariol/starter-wansite
+    gatsby new project-name https://github.com/waltermazzariol/personal-site
     ```
 
 2.  **Start your project.**
@@ -34,7 +32,7 @@ Gatsby implementation of [Wansite Starter](https://modest-villani-fa0160.netlify
     Go into site’s directory and start it up!.
 
     ```sh
-    cd project-name
+    cd personal-site
     gatsby develop
     ```
 
