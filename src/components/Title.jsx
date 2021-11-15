@@ -10,7 +10,7 @@ const Header = styled.h2`
 `
 const Divider = styled.hr`
   background-color: ${props => props.theme.PrimaryColor};
-  height: 2px;
+  height: 2px!important;
   max-width: 3.25rem;
   opacity: 1;
   margin: auto;

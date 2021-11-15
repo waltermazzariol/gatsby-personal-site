@@ -6,6 +6,13 @@ import GridTitle from "./GridTitle"
 import GridSubtitle from "./GridSubtitle"
 import GridImage from "./GridImage"
 
+import styled from "styled-components"
+const Icon = styled.a`
+   i{
+       color: ${props => props.theme.SubtitleColor};
+   }
+`
+
 function GridColumn({ data }) {
     return (
         <Container className="py-5">
@@ -22,11 +29,14 @@ function GridColumn({ data }) {
                                 {key.name}
                             </a>
                         </GridTitle> : ""}
+                        <div className="d-flex justify-content-start">
+                        <Icon href={key.dribbble} target="_blank" rel="noopener noreferrer"><i className="fab fa-dribbble"></i></Icon>
                         {key.subtitle ? <GridSubtitle>
-                            <a href={key.url} target="_blank" rel="noopener noreferrer">
+                            <a className="ms-2" href={key.url} target="_blank" rel="noopener noreferrer">
                                 {key.subtitle}
                             </a>
                         </GridSubtitle> : ""}
+                        </div>
                     </Col>
                 ) : ""}
             </Row>

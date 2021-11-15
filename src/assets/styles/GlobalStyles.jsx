@@ -31,7 +31,7 @@ p{
   margin-right: auto;
 }
 a{
-  text-decoration: none
+  text-decoration: none;
 }
 `
 

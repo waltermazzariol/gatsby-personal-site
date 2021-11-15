@@ -33,7 +33,8 @@
                     },
                     "name": "Ebb and Flow Miami",
                     "subtitle": "2021 • Wordpress",
-                    "url": "https://ebbandflow.miami"
+                    "url": "https://ebbandflow.miami",
+                    "dribbble":"https://dribbble.com/shots/15414608-Ebb-and-Flow-Miami"
                 },
                 {
                     "fileImage": {
@@ -42,7 +43,8 @@
                     },
                     "name": "Restaurante Burbowl Miami",
                     "subtitle": "2017 • Wordpress",
-                    "url": "https://bur-bowl.com/"
+                    "url": "https://bur-bowl.com/",
+                    "dribbble":"https://dribbble.com/shots/15078633-Burbowl-Restaurant"
                 },
                 {
                     "fileImage": {
@@ -51,7 +53,8 @@
                     },
                     "name": "Piel de Oro",
                     "subtitle": "2020 • React + Gatsby",
-                    "url": "https://ebbandflow.miami/"
+                    "url": "https://pieldeoro.com/",
+                    "dribbble":"https://dribbble.com/shots/15078667-Piel-de-Oro"
                 },
                 {
                     "fileImage": {
@@ -60,7 +63,8 @@
                     },
                     "name": "Escuela infantil Cultura Nanos",
                     "subtitle": "2020 • React + Gatsby",
-                    "url": "http://culturananos.com/"
+                    "url": "http://culturananos.com/",
+                    "dribbble":"https://dribbble.com/shots/15248685-nanos"
                 },
                 {
                     "fileImage": {
@@ -69,7 +73,8 @@
                     },
                     "name": "Orlando Molina",
                     "subtitle": "2021 • Wordpress",
-                    "url": "http://orlandomolina.com/"
+                    "url": "http://orlandomolina.com/",
+                    "dribbble":"https://dribbble.com/shots/15233785-Orlando-Molina-Music-Website"
                 },
                 {
                     "fileImage": {
@@ -78,7 +83,8 @@
                     },
                     "name": "Norma Pasteles",
                     "subtitle": "2020 • React + Gatsby",
-                    "url": "http://normapasteles.com/"
+                    "url": "http://normapasteles.com/",
+                    "dribbble":"https://dribbble.com/shots/15088169-Norma-Pasteles"
                 }
             ],
             "component_type": "GridColumn",
