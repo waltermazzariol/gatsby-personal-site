@@ -99,7 +99,7 @@
                 }
             ],
             "component_type": "GridColumn",
-            "title": "Proyectos Web",
+            "title": "Proyectos",
             "id":"2"
         },
         {
@@ -150,7 +150,7 @@
                         "imageID": 263,
                         "imageURL": "/images/testimonials/2.jpg"
                     },
-                    "name": "Guarapo Media • Product Manager",
+                    "name": "Guarapo Media • Project Manager",
                     "subtitle": "2013 - Presente • Web development"
                 },
                 {
