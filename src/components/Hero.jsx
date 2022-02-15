@@ -13,18 +13,23 @@ const HeroWrapper = styled.div`
 const HeroTitle = styled.div`
     color: #ffffff;
     font-size: 2.5rem;
+    line-height: 3rem;
     font-weight: 700;
-    margin-bottom: 0.1rem;
+    margin-bottom: 1rem;
     text-align: center;
+  
     @media (min-width: 768px){
       font-size: 3.5rem;
+      line-height: 4rem;
     }
     @media (min-width: 1024px){
       font-size: 4rem;
+      line-height: 4.5rem;
     }
     @media (min-width: 1280px){
       font-size: 4.5rem;
-      max-width: 100%;
+      line-height: 5rem;
+      max-width: 800px;
     }
 `
 const HeroDescription = styled.div`
@@ -44,6 +49,7 @@ const HeroButton = styled.a`
     font-weight: 700;
     line-height: 1.75;
     text-transform: uppercase;
+    text-decoration: none;
     &:hover {
         background-color: ${props => props.theme.SecundaryColor};
         color: #ffffff;
@@ -62,7 +68,7 @@ function Hero({ data }) {
 
   return (
     <HeroContainer
-      style={{ backgroundImage: 'linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(' + bg + ')' }}>
+      style={{ backgroundImage: 'linear-gradient(to right bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(' + bg + ')' }}>
       <HeroWrapper className="d-flex flex-column justify-content-center align-items-center">
         {data.title ? <HeroTitle>{data.title}</HeroTitle> : ""}
         {data.description ? <HeroDescription>{data.description}</HeroDescription> : ""}

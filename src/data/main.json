@@ -17,12 +17,23 @@
                 "imageURL": "/images/hero.jpg"
             },
             "component_type": "Hero",
-            "title": "¡Hola!, soy Walter Mazzariol",
+            "title": "Walter Mazzariol",
             "description": "Product Manager & Web Developer - Barcelona, España",
             "button_title": "contáctame",
             "button_url": "https://wa.me/34622531989",
             "id":"1"
         },
+        {
+            "section_preview": "/templates/template_1/assets/biography.jpg",
+            "fileImage": {
+                "imageID": 282,
+                "imageURL": "/images/bio.jpg"
+            },
+            "component_type": "GridTwo",
+            "title": "Biografía",
+            "description": "Tengo 4 años de experiencia como Product Manager así como desarrollador web, asumiendo retos que me motivan a desarrollar nuevas aptitudes y conocimientos. Actualmente me encuentro en eDreams ODIGEO pero tambien he tenido la oportunidad de formar parte de empresas como WANUP, Yamaha Musical entre otros, con un capital humano increíble que me han hecho crecer de forma personal y profesional. \nSoy fiel creyente de las metodologías ágiles y como éstas permiten minimizar el impacto en el desarrollo y reducir el \"time to market\". \nEstoy constantemente conectado con los cambios que ocurren en el sector tecnológico. Sin embargo, siempre puedo poner mi móvil a un lado y disfrutar de un buen concierto con mis amigos.",
+            "id":"4"
+        }, 
         {
             "section_preview": "/templates/template_1/assets/portfolio.jpg",
             "list": [
@@ -122,17 +133,6 @@
             "component_type": "Gallery",
             "title": "Barcelona",
             "id":"3"
-        },
-        {
-            "section_preview": "/templates/template_1/assets/biography.jpg",
-            "fileImage": {
-                "imageID": 282,
-                "imageURL": "/images/bio.jpg"
-            },
-            "component_type": "GridTwo",
-            "title": "Biografía",
-            "description": "Tengo 5 años de experiencia trabajando en el sector Web y creación de productos digitales, asumiendo retos que me han motivado a desarrollar nuevas aptitudes y conocimientos. He tenido la oportunidad de formar parte de empresas como eDreams ODIGEO, WANUP, Yamaha Musical entre otros, con un capital humano increíble que me han hecho crecer de forma personal y profesional. \nSoy fiel creyente de las metodologías ágiles y como éstas permiten minimizar el impacto en el desarrollo y reducir el \"time to market\". \nEstoy constantemente conectado con los cambios que ocurren en el sector tecnológico. Sin embargo, siempre puedo poner mi móvil a un lado y disfrutar de un buen concierto con mis amigos.",
-            "id":"4"
         },
         {
             "section_preview": "/templates/template_1/assets/review.jpg",

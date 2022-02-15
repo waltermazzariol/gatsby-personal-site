@@ -14,7 +14,7 @@ function SplitString(props) {
 function GridTwo({ data }) {
 
     return (
-        <Container id="gridtwo" className="gridtwo pb-5">
+        <Container id="gridtwo" className="gridtwo py-5">
             <Row>
                 {data.title ? <Title data={data.title} />:""}
                 {data.fileImage !== undefined ?
